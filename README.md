@@ -284,5 +284,4 @@ Examples:
 search_insert([1,3,5,6], 5) should return 2.  
 search_insert([1,3,5,6], 2) should return 1.  
 searchInsert([1,3,5,6], 7) should return 4.  
-
 searchInsert([1,3,5,6], 0) should return 0.
