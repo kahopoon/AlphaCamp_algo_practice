@@ -1,6 +1,7 @@
 # AlphaCamp_algo_practice
 
-1 Nim Game
+**1 Nim Game**
+
 Difficulty: Easy
 Skills you might need: [Numeric#Modulo] 
 Description:
@@ -18,7 +19,8 @@ canWinNim(12) should return false.
 
 [註一] What is Nim game：https://en.wikipedia.org/wiki/Nim
 
-2 Power of Two
+**2 Power of Two**
+
 Difficulty: Easy
 Skills you might need: [While loop] [Numeric#Modulo] 
 Description:
@@ -31,7 +33,8 @@ is_power_of_two(1) should return true.
 isPowerOfTwo(-3) should return false.
 isPowerOfTwo(16) should return true.
 
-3 Contains Duplicate
+**3 Contains Duplicate**
+
 Difficulty: Easy
 Skills you might need: [sort] [for loop]
 Description:
@@ -42,7 +45,8 @@ Examples:
 contains_duplicate( [1,2,3,3,4] ) should return true.
 containsDuplicate( [ 1 ] ) should return false.
 
-4 Ugly Number
+**4 Ugly Number**
+
 Difficulty: Easy
 Skills you might need: [while loop]
 Description:
@@ -56,7 +60,8 @@ is_ugly(1) should return true.
 isUgly(5) should return true.
 isUgly(13) should return false.
 
-5 Add Digits
+**5 Add Digits**
+
 Difficulty: Easy
 Skills you might need: [String#to_s] [String#toString] [String#Split] [Numeric#Modulo] [while loop]
 Description:
@@ -69,7 +74,8 @@ Given num = 38, the process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one
 Given num = 439, the process is like: 4 + 3 + 9 = 16, 1 + 6 = 7. Since 7 has only one digit, return it.
 => addDigits(439) should return 7.
 
-6 Move Zeroes
+**6 Move Zeroes**
+
 Difficulty: Easy
 Skills you might need: [Array#push] [for loop][Array#delete_at]
 Description:
@@ -80,7 +86,8 @@ Examples:
 move_zeroes( [0, 1, 0, 3, 12] ) should return [1, 3, 12, 0, 0].
 moveZeroes( [1,2,3,0,0] ) should return [1, 2, 3, 0, 0].
 
-7 Valid Anagram
+**7 Valid Anagram**
+
 Difficulty: Easy
 Skills you might need: [for loop] [String#split] [Array#sort] [Array#length]
 Description:
@@ -94,7 +101,8 @@ is_anagram("anagram", "nagaram") should return true.
 isAnagram("rat", "car") should return false.
 [註二] 將一個字原有的字母不額外增減而重新排列順序成為另一個字，得到的結果就稱為 "anagram"。
 
-8 Majority Element
+**8 Majority Element**
+
 Difficulty: Easy
 Skills you might need: [Array#sort] [Array#length]
 Description:
@@ -107,7 +115,8 @@ Examples:
 majority_element([0]) should return 0.
 majorityElement([1,1,2,1,3]) should return 1.
 
-9 Climbing Stairs
+**9 Climbing Stairs**
+
 Difficulty: Easy
 Skills you might need: [for loop]
 Description:
@@ -119,7 +128,8 @@ Examples:
 climb_stairs(1) should return 1.
 climbStairs(5) should return 8.
 
-10 Remove Duplicates from Sorted Array
+**10 Remove Duplicates from Sorted Array**
+
 Difficulty: Easy
 Skills you might need: [for loop] [Array#push] [Array#length] 
 Description:
@@ -132,7 +142,8 @@ Examples:
 remove_duplicate([1]) should return 1.
 removeDuplicates([1,1,2]) should return 2.
 
-11 House Robber
+**11 House Robber**
+
 Difficulty: Easy
 Skills you might need: [for loop] [length] [max] 
 Description:
@@ -145,8 +156,10 @@ Examples:
 rob( [ ] ) should return 0.
 rob( [1,2,3,7,10] ) should return 14.
 
-Medium
-1 Single Number
+**Medium**
+
+**1 Single Number**
+
 Difficulty: Medium
 Skills you might need:  Array#sort / if else 
 Description:
@@ -157,7 +170,8 @@ Examples:
 single_number( [0, 0, 1, 12, 1] ) should return 12.
 singleNumber( [ 1 ] ) should return 1.
 
-2 Best Time to Buy and Sell Stock
+**2 Best Time to Buy and Sell Stock**
+
 Difficulty: Medium
 Skills you might need:  [for loop]
 Description:
@@ -170,7 +184,8 @@ Examples:
 max_profit( [1,4,3,6,2] ) should return 6.
 maxProfit( [ 1 ] ) should return 0.
 
-3 Product of Array Except Self
+**3 Product of Array Except Self**
+
 Difficulty: Medium
 Skills you might need: [for loop] [while loop] [Array#push] [Array#length]
 Description:
@@ -182,7 +197,8 @@ Examples:
 product_of_array_except_self( [1,2,3,4] ) should return [24,12,8,6].
 productExceptSelf( [0,0] ) should return [0,0].
 
-4 Search Insert Position
+**4 Search Insert Position**
+
 Difficulty: Medium
 Skills you might need: [for loop]
 Description:
