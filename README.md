@@ -1,6 +1,6 @@
 # AlphaCamp_algo_practice
 
-**1 Nim Game**
+#**1 Nim Game**
 
 Difficulty: Easy
 
@@ -16,12 +16,12 @@ Write a function to determine whether you can win the game given the number of s
 桌上有一堆石頭，每回合輪到其中一個人的時候可以選擇拿走其中一到三顆的石頭，把最後一顆石頭拿走的人就是贏家。你是起始玩家，你和你的朋友兩個都十分聰明，因此都會選擇遊戲裡最佳的策略。
 請寫一個 function ，判斷當給定石頭數量的時候，你是否能贏得該次的遊戲。
 
-Examples:
+Examples:  
 can_win_nim(1) should return true.  
 can_win_nim(2) should return true.  
 canWinNim(12) should return false.  
 
-[註一] What is Nim game：https://en.wikipedia.org/wiki/Nim
+[註一] What is Nim game：https://en.wikipedia.org/wiki/Nim  
 
 
 **2 Power of Two**
@@ -36,15 +36,11 @@ Given an integer, write a function to determine if it is a power of two.
 題目敘述：
 請寫出一個 function，當給入一個整數時，判斷它是不是二的次方。
 
-Examples:
-
-is_power_of_two(0) should return false.
-
-is_power_of_two(1) should return true.
-
-isPowerOfTwo(-3) should return false.
-
-isPowerOfTwo(16) should return true.
+Examples:  
+is_power_of_two(0) should return false.  
+is_power_of_two(1) should return true.  
+isPowerOfTwo(-3) should return false.  
+isPowerOfTwo(16) should return true.  
 
 
 **3 Contains Duplicate**
