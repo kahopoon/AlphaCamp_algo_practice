@@ -17,9 +17,9 @@ Write a function to determine whether you can win the game given the number of s
 請寫一個 function ，判斷當給定石頭數量的時候，你是否能贏得該次的遊戲。
 
 Examples:
-can_win_nim(1) should return true.
-can_win_nim(2) should return true.
-canWinNim(12) should return false.
+can_win_nim(1) should return true.  
+can_win_nim(2) should return true.  
+canWinNim(12) should return false.  
 
 [註一] What is Nim game：https://en.wikipedia.org/wiki/Nim
 
